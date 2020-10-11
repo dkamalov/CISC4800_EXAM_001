@@ -29,6 +29,7 @@ table, th, td {
   	font-family: Calibri;
 	height:45px;
         width: 1300px;
+	margin-right:10px;
 	text-align: left;		
         vertical-align: top;
 } 
