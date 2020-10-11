@@ -22,25 +22,25 @@ li {
 	margin-left: 80px;
 }
 	
-
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   font-family: Calibri;
   margin-left: 80px;
 }
+
 th {
       text-align: left;		
       vertical-align: top;
       margin-left: 80px;
-      width:20%;
-      height:50%;
-		}
+      
+      
+}
 
 th, td {
       align: center;
       padding: 15 px;
       margin-left: 80px;
-      height:50%
-      width:20%;
-		}	
+      
+      
+}	
