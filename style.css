@@ -29,6 +29,7 @@ th {
 }
 th, td {
   align: center;
-  padding: 100px;
+  padding: 20px;
+  padding-right: 50px;
   margin-left: 80px;
 }
