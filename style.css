@@ -23,18 +23,17 @@ li {
 }
 	
 table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  font-family: Calibri;
-  margin-left: 80px;
-}
+        border: 1px solid black;
+        border-collapse: collapse;
+  	font-family: Calibri;
+  	margin-left: 80px;
+} 
 
 th {
-      text-align: left;		
-      vertical-align: top;
-      margin-left: 80px;
-      
-      
+        text-align: left;		
+        vertical-align: top;
+        margin-left: 80px;
+        width: 75%;
 }
 
 th, td {
