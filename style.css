@@ -30,19 +30,18 @@ table, th, td {
   border: .5px solid black;
   border-collapse: collapse;
   margin-left: 80px;
-  width:110%;
 }
 
 th {
   text-align: left;
   vertical-align: top;
   margin-left: 80px;
-  width:110%;
+  width:100%;
 }
 
 th, td {
   align: center;
   padding: 15px;
   margin-left: 80px;
-  width:50%;
+  width:80%;
 }
