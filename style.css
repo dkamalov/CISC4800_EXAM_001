@@ -34,11 +34,13 @@ th {
       vertical-align: top;
       margin-left: 80px;
       width:20%;
+      height:50%;
 		}
 
 th, td {
       align: center;
-      padding: 12 px;
+      padding: 15 px;
       margin-left: 80px;
+      height:50%
       width:20%;
 		}	
