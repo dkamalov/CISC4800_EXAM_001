@@ -26,10 +26,13 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   font-family: Calibri;
+	margin-left: 80px;
 }
 th {
   text-align: left;
+	margin-left: 80px;
 }
 th, td {
   padding: 8px;
+	margin-left: 80px;
 }
