@@ -16,6 +16,7 @@ p {
 
 table{
 	font-family: calibri;
+	table-layout = fixed;
 	width = 250%;
 	height = 200%
 }
