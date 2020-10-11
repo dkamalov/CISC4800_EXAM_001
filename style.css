@@ -20,6 +20,7 @@ table, th, td {
 }
 th {
   text-align: left;
+  vertical-align: top;
 }
 th, td {
   padding: 16px;
