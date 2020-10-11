@@ -16,10 +16,6 @@ p {
 	margin-left: 80px;
 }
 
-ul {
-	margin-left: 80px;
-}
-
 ol {
 	margin-left: 80px;
 }
@@ -30,14 +26,16 @@ table, th, td {
   border-collapse: collapse;
   margin-left: 80px;
 }
+
 th {
   text-align: left;
   vertical-align: top;
   margin-left: 80px;
 }
+
 th, td {
   align: center;
-  padding: 20px;
-  padding-right: 50px;
+  padding: 10px;
+  
   margin-left: 80px;
 }
