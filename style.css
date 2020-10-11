@@ -27,9 +27,8 @@ table, th, td {
         border: 1px solid black;
         border-collapse: collapse;
   	font-family: Calibri;
-  	
-	height:50px;
-        width: 1350px;
+	height:40px;
+        width: 1300px;
 	text-align: left;		
         vertical-align: top;
 } 
@@ -38,7 +37,4 @@ table, th, td {
 th, td {
       align: center;
       padding: 15 px;
-     
-      
-      
 }	
