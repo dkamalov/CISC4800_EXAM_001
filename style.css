@@ -27,14 +27,15 @@ table, th, td {
         border-collapse: collapse;
   	font-family: Calibri;
   	margin-left: 80px;
+	height:150px;
+        width: 250px;
 } 
 
 th {
         text-align: left;		
         vertical-align: top;
         margin-left: 80px;
-	height:150px;
-        width: 250px;
+	
 }
 
 th, td {
