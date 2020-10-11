@@ -28,7 +28,9 @@ table, th, td {
   	font-family: Calibri;
   	margin-left: 80px;
 	height:100px;
-        width: 1000px;
+        width: 900px;
+	text-align: left;		
+        vertical-align: top;
 } 
 
 th {
