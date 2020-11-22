@@ -1,14 +1,17 @@
 function fetchData() {
-    return fetch("https://data.cityofnewyork.us/resource/rc75-m7u3.json")
-    .then(response => response.json())
-    .then(json => renderData(json)); 
+
+    return fetch('https://data.cityofnewyork.us/resource/rc75-m7u3.json').then(response -> response.json())
+                 
 }
 
-function renderData(json) {
-    const main = document.querySelector('main'); 
-    json.filter(data => data.date_of_interest > 0).forEach(element => {
-        const e = document.createElement('e');
-        e.innerHTML = COVID COUNT: ${element.case_count} HOSPITALIZATIONS: ${element.hospitalized_count}; 
-        main.appendChild(p);
-    });
+function renderDatas(json) {
+    
+    const h2 = document.querySelector('h2');
+    json.forEach(data => { 
+        const p = document.createElement('p')
+        p.innerHTML = Hospitilizations: ${data.hospitalized_count}
+        h2.appendChild(p)
+    })
 }
+
+document.addEventListener('DOMContentLoaded', function () { fetchData() })
