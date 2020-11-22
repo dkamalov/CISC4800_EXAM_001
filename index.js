@@ -1,5 +1,5 @@
 function fetchData() {
-    return fetch("https://data.cityofnewyork.us/resource/jb7j-dtam.json")
+    return fetch("https://data.cityofnewyork.us/api/views/rc75-m7u3/rows.json")
     .then(response => response.json())
     .then(json => renderData(json)); 
 }
