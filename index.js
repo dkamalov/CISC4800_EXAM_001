@@ -6,9 +6,9 @@ function fetchData() {
 
 function renderData(json) {
     const main = document.querySelector('main'); 
-    json.filter(data => data.sex == 'F' && data.year == 2014).forEach(element => {
-        const p = document.createElement('p');
-        p.innerHTML = Cause: ${element.leading_cause} Number: ${element.deaths}; 
+    json.filter(data => data.date_of_interest > 0).forEach(element => {
+        const e = document.createElement('e');
+        e.innerHTML = COVID COUNT: ${element.case_count} HOSPITALIZATIONS: ${element.hospitalized_count}; 
         main.appendChild(p);
     });
 }
