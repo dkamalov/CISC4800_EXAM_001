@@ -13,6 +13,8 @@ function renderDatas(json) {
         const p = document.createElement('p') // not inserting the element to browser yet 
         // bringing an element to existence
         p.innerHTML = `<strong>Cases:</strong> ${data.case_count}
+        h2.appendChild(p)
+        const p = document.createElement('p)
         p.innerHTML = <strong>| Date: </strong> ${data.date_of_interest}
         h2.appendChild(p)
     })
