@@ -12,7 +12,7 @@ function renderDatas(json) {
     json.forEach(data => {
         const p = document.createElement('p') // not inserting the element to browser yet 
         // bringing an element to existence
-        p.innerHTML = `<strong>Year:</strong> ${data.case_count}`
+        p.innerHTML = `<strong>Case Count:</strong> ${data.case_count}`
         h2.appendChild(p)
     })
 }
