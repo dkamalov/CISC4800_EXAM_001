@@ -14,9 +14,6 @@ function renderDatas(json) {
         // bringing an element to existence
         p.innerHTML = `<strong>Cases:</strong> ${data.case_count}
         h2.appendChild(p)
-        const p = document.createElement('p)
-        p.innerHTML = <strong>| Date: </strong> ${data.date_of_interest}
-        h2.appendChild(p)
     })
 }
 
