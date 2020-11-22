@@ -14,9 +14,12 @@ function renderDatas(json) {
         // bringing an element to existence
         p.innerHTML = `<strong>Year:</strong> ${data.case_count}`
         h2.appendChild(p)
+    })
+}
 
 document.addEventListener('DOMContentLoaded', function () {
     fetchData()
 })
+
 
 
